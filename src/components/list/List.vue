@@ -13,6 +13,7 @@
                 tag="article"
                 class="mb-2"
                 @click="clicked(movie.imdbID)"
+                v-if="!movie.Error"
             >
                 <b-card-text>
                 <p  class="text-secondary"><span class="pr-3">{{ movie.Year }}</span>  <span class="pr-3">{{ movie.Runtime }}</span> {{ movie.Language }}</p>

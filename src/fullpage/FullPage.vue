@@ -22,7 +22,7 @@ export default {
     },
     methods: {
         update(movies){
-            this.movies=movies
+            this.movies=movies;
         }
     }
 }
